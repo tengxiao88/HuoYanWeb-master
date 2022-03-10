@@ -1,0 +1,74 @@
+/* 全局样式表 */
+html,body,#app {
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+}
+/* 页面间距 */
+.Page_Spacing {
+  padding: 15px 20px 0px 20px;
+}
+/* 文字15px */
+.Characters_15px{
+  font-size:15px;
+  /* font-weight: bold; */
+}
+.Characters_14px{
+  font-size:14px;
+}
+
+/* 文字40px */
+.Characters_20px{
+  font-size:20px;
+  /* font-weight:bold; */
+}
+/* 文字居中、悬浮 */
+.Script_Float{
+  float: left;
+}
+/*文字颜色*/
+.Characters_color{
+  color: #7c7c7c;
+}
+/*超出自动换行*/
+.DIVhuan {
+  white-space: normal;
+  width: 100%;
+  overflow: hidden;
+  word-break: break-all;
+}
+/*超出自动隐藏*/
+.DIVcang {
+  /* padding: 5px 100px 0px 0px; */
+  width: 99%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/* .DIVcang:after {
+	content:"...";
+ 	position:absolute;
+  bottom:0;
+  right:0;
+  font-weight:bold;
+	padding-left: 20px;
+} */
+.Script_Centre{
+  /* padding-top: 7px; */
+  line-height:35px;
+}
+.Characters_spacing{
+  padding-top: 35px;
+}
+/* 区域 */
+.Zone_Colour{
+  background-color: #ffffff;
+  margin-top: 15px;
+  border-radius: 8px;
+  border: 1px solid #F5F5F5;
+  box-shadow: 0 0 2px #DCDCDC;
+}
+.yy_Zone_Colour{
+  border: 1px solid #F5F5F5;
+  box-shadow: 0 0 2px #DCDCDC;
+}
